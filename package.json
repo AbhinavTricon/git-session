@@ -1,0 +1,30 @@
+{
+  "name": "git-session",
+  "version": "1.0.0",
+  "description": "This is a training repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/AbhinavTricon/git-session.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhinavTricon/git-session/issues"
+  },
+  "homepage": "https://github.com/AbhinavTricon/git-session#readme",
+  "dependencies": {
+    "eslint": "^8.28.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "husky": "^8.0.2"
+  }
+}
